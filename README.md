@@ -12,7 +12,7 @@ Esta API bancária RESTful fornece recursos para criar clientes, realizar transf
 - **Uso de Verbos HTTP**: Os métodos HTTP (GET, POST) são utilizados de acordo com suas semânticas para operações de leitura e escrita, respectivamente.
 - **URI Semântica**: As URIs são projetadas de forma semântica, facilitando a compreensão dos recursos e operações.
 - **Respostas HTTP Adequadas**: Respostas HTTP apropriadas, como códigos de status 2xx para sucesso e 4xx para erros do cliente, são fornecidas.
-- **Documentação OpenAPI**: A API é documentada usando SpringDoc OpenAPI para fornecer informações detalhadas sobre os recursos, endpoints e modelos. (http://localhost:port/swagger-ui/index.html#/)
+- **Documentação OpenAPI**: A API é documentada usando SpringDoc OpenAPI para fornecer informações detalhadas sobre os recursos, endpoints e modelos. (http://localhost:port/swagger-ui/index.html)
 - **Testes Unitários**: São realizados testes unitários para garantir a qualidade do código e a funcionalidade correta da API.
 
 Esta API é uma solução eficiente e segura para operações bancárias, seguindo as melhores práticas e padrões de desenvolvimento de APIs RESTful. Ela oferece uma maneira simples e confiável de gerenciar contas e transferências.
@@ -153,10 +153,6 @@ Certifique-se de configurar corretamente as variáveis de ambiente do Java e do 
 ## Autor
 
 Matheus Cavalari Barbosa
-
-## Licença
-
-Este projeto é licenciado sob a Licença XYZ. Consulte o arquivo [LICENSE](LICENSE.md) para obter detalhes.
 
 
 
