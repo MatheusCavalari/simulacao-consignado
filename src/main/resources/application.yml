@@ -1,3 +1,10 @@
+server:
+  port: 8082
+
+cliente:
+  service:
+    url: http://localhost:8080/v1
+
 spring:
 
   datasource:
