@@ -32,11 +32,11 @@ public class SimulacaoControllerTest {
     }
 
     @Test
-    public void testListarContratos() {
+    public void testListarSimulacoes() {
         List<Simulacao> simulacoes = new ArrayList<>();
         when(simulacaoService.listarSimulacoes()).thenReturn(simulacoes);
 
-        ResponseEntity<?> responseEntity = simulacaoController.listarContratos();
+        ResponseEntity<?> responseEntity = simulacaoController.listarSimulacoes();
 
         assertEquals(HttpStatus.OK, responseEntity.getStatusCode());
         assertSame(simulacoes, responseEntity.getBody());

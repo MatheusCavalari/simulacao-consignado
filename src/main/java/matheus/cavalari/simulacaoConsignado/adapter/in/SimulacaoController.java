@@ -24,7 +24,7 @@ public class SimulacaoController {
     }
 
     @GetMapping
-    public ResponseEntity<?> listarContratos() {
+    public ResponseEntity<?> listarSimulacoes() {
         try {
             List<Simulacao> simulacoes = simulacaoService.listarSimulacoes();
             return ResponseEntity.ok(simulacoes);
